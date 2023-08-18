@@ -1,6 +1,6 @@
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
 let length = rule.length
-console.log(length);
+
 switch (true) {
   case length > 25:
     console.log("У меня 100 пудов все получится");
