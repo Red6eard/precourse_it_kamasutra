@@ -4,11 +4,9 @@
 //❗Кавычки в массиве должны быть двойными.
 
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
-const findFruits = (fruit) => {
-  if (fruit.indexOf("апельсин") < 0) {
+  if (words.indexOf("апельсин") < 0) {
     console.log("Придется поискать в другом магазине...")
   } else {
     console.log("Ура! нашел")
   }
-};
-findFruits(words);
+
