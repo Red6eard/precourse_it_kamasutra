@@ -6,9 +6,9 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
 const findFruits = (fruit) => {
   if (fruit.indexOf("апельсин") < 0) {
-    return "Придется поискать в другом магазине..."
+    console.log("Придется поискать в другом магазине...")
   } else {
-    return "Ура! нашел"
+    console.log("Ура! нашел")
   }
 };
-console.log(findFruits(words));
+findFruits(words);
