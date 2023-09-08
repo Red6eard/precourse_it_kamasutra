@@ -9,7 +9,7 @@
 console.log(numbers);
 
 const deletOddNum = arr => {
-  return arr.map(row => row.filter(el => el % 2 === 0))
+  return arr = arr.map(row => row.filter(el => el % 2 === 0))
 };
 
 console.log(deletOddNum(numbers));
